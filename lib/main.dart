@@ -13,16 +13,13 @@ class DaVinci extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          appBarTheme: AppBarTheme(
-            backgroundColor: Colors.grey.shade200,
-            centerTitle: true
-          ),
-          scaffoldBackgroundColor: Colors.grey.shade200,
-        ),
-        home: Scaffold(
-          body: Demons(),
-        ));
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        appBarTheme: AppBarTheme(
+            backgroundColor: Colors.grey.shade200, centerTitle: true),
+        scaffoldBackgroundColor: Colors.grey.shade200,
+      ),
+      home: Scaffold(),
+    );
   }
 }
